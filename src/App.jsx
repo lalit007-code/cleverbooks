@@ -1,4 +1,6 @@
 import "./App.css";
+import CTASection from "./components/CTASection";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import KeyProblemSolved from "./components/KeyProblemSolved";
 
@@ -7,6 +9,9 @@ function App() {
     <div>
       <HeroSection />
       <KeyProblemSolved />
+      <CTASection />
+      <Footer />
+      
     </div>
   );
 }

@@ -1,15 +1,14 @@
 import Header from "./Header";
+// bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)]
 
 const HeroSection = () => {
   return (
     <div>
-      <Header  />
+      <Header />
 
-      <section className="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
-
-        <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-          <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <section className="relative  bg-cover bg-center bg-no-repeat">
+        <div className="  grid  grid-cols-1 md:grid-cols-2 gap-96 relative bg-slate-800 mx-auto px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+          <div className="max-w-xl mx-10 text-center ltr:sm:text-left rtl:sm:text-right">
             <h1 className="text-3xl font-extrabold sm:text-5xl">
               <span>Every Order</span>
               <strong className="block font-extrabold ">
@@ -32,6 +31,14 @@ const HeroSection = () => {
                 Get Started with Crest
               </a>
             </div>
+          </div>
+          <div>
+            <img
+              className=""
+              src="      https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg
+"
+              alt=""
+            />
           </div>
         </div>
       </section>
