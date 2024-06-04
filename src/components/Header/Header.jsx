@@ -1,15 +1,6 @@
-// import { useState } from "react";
-
 const Header = () => {
-  // const [showMenu, setShowMenu] = useState(false);
-
-  // const toggleMenu = () => {
-  //   setShowMenu(!showMenu);
-  // };
-  // className={`bg-${showMenu ? "transparent" : "white"}`}
-
   return (
-    <header className="" >
+    <header className="  bg-black">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -26,16 +17,16 @@ const Header = () => {
                   fill="currentColor"
                 />
               </svg>
-              <span className="text-3xl">Crest</span>
+              <span className=" text-white text-3xl">Crest</span>
             </a>
           </div>
 
           <div className="hidden md:block">
             <nav aria-label="Global">
-              <ul className="flex font-semibold items-center gap-6 text-sm">
+              <ul className="flex  font-semibold items-center gap-6 text-sm">
                 <li>
                   <a
-                    className="text-gray-500  hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
+                    className="text-white  hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
                     href="#"
                   >
                     {" "}
@@ -45,7 +36,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
+                    className="text-white hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
                     href="#"
                   >
                     {" "}
@@ -55,7 +46,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
+                    className="text-white hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
                     href="#"
                   >
                     {" "}
@@ -65,7 +56,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
+                    className="text-white hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
                     href="#"
                   >
                     {" "}
@@ -75,7 +66,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
+                    className="text-white hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
                     href="#"
                   >
                     {" "}
@@ -85,7 +76,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
+                    className="text-white hover:text-pink-700 transition-colors duration-300 ease-in-out/75"
                     href="#"
                   >
                     {" "}

@@ -1,5 +1,3 @@
-import "../App.css";
-
 const CTASection = () => {
   return (
     <div className="mx-20 my-10 px-10 p-8 text-center text-3xl text-neutral-50  h-100 w-100 rounded-xl  bg-gradient-to-br from-purple-500 via-red-400 to-purple-500 animate-gradient-xy bg-200% bg-no-repeat ">

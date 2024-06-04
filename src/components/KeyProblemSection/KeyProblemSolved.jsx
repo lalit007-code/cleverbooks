@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "../Card/Card";
 
 const KeyProblemSolved = () => {
   const cardData = [
@@ -36,7 +36,7 @@ const KeyProblemSolved = () => {
     <>
       <section className=" mt-40 ">
         <div>
-          <h1 className="text-2xl flex justify-center items-center mb-20">
+          <h1 className="text-3xl font-extrabold flex justify-center items-center mb-20">
             Four Key questions answered by Crest
           </h1>
           <div className="mt-8 grid grid-cols-1 gap-10 mx-20 md:grid-cols-2 lg:grid-cols-4">
